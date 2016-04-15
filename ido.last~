@@ -1,0 +1,159 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/beorn/Dropbox/projet_IHM/bily/" . "shop3d/")
+ ("/home/beorn/Dropbox/projet_IHM/" . "bily/")
+ ("/home/beorn/vagrant-lamp/" . "src/")
+ ("/home/" . "beorn/")
+ ("/home/beorn/myvagrant/src/" . "shop3d/")
+ ("/home/beorn/myvagrant/" . "src/")
+ ("/home/beorn/AndroidStudioProjects/Labyrinthe/app/src/main/java/com/example/bilali/" . "labyrinthe/")
+ ("/home/beorn/AndroidStudioProjects/Labyrinthe/app/src/main/java/com/example/" . "bilali/")
+ ("/home/beorn/AndroidStudioProjects/Labyrinthe/app/src/main/java/com/" . "example/")
+ ("/home/beorn/AndroidStudioProjects/Labyrinthe/app/src/main/java/" . "com/")
+ ("/home/beorn/AndroidStudioProjects/Labyrinthe/app/src/main/" . "java/")
+ ("/home/beorn/AndroidStudioProjects/Labyrinthe/app/src/" . "main/")
+ ("/home/beorn/AndroidStudioProjects/Labyrinthe/app/" . "src/")
+ ("/home/beorn/AndroidStudioProjects/Labyrinthe/" . "app/")
+ ("/home/beorn/AndroidStudioProjects/" . "Labyrinthe/")
+ ("/home/beorn/" . "myvagrant/")
+ ("/home/beorn/Dropbox/cours/CGC/" . "labo3/")
+ ("/home/beorn/Dropbox/cours/" . "SYN/")
+ ("/home/beorn/.config/awesome/themes/multicolor/" . "icons/")
+ ("/home/beorn/Dropbox/" . "projet_IHM/")
+ ("/home/beorn/.config/awesome/themes/powerarrow-darker/" . "icons/")
+ ("/home/beorn/.config/awesome/themes/" . "multicolor/")
+ ("/home/beorn/.config/awesome/" . "themes/")
+ ("/home/beorn/.config/" . "awesome/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/beorn/.emacs.d/"
+ "/home/beorn/"
+ "/home/beorn/myvagrant/src/shop3d/"
+ "/home/beorn/Dropbox/projet_IHM/bily/shop3d/"
+ "/home/beorn/myvagrant/src/shop/"
+ "/home/beorn/vagrant-lamp/src/"
+ "/home/beorn/Dropbox/cours/SYN/"
+ "/home/beorn/Dropbox/cours/CGC/labo4/"
+ "/home/beorn/Dropbox/cours/CGC/labo3/"
+ "/home/beorn/Dropbox/cours/MOB/"
+ "/home/beorn/Downloads/"
+ "/home/beorn/AndroidStudioProjects/Labyrinthe/app/src/main/java/com/example/bilali/labyrinthe/"
+ "/home/beorn/Dropbox/cours/CGC/"
+ "/home/beorn/Dropbox/txt_howto/"
+ "/home/beorn/.config/awesome/"
+ "/home/beorn/.config/awesome/themes/multicolor/"
+ "/home/beorn/Dropbox/emacs_related/"
+ "/home/beorn/Downloads/projetatomic/"
+ "/home/beorn/.config/awesome/themes/pro-dark/"
+ "/home/beorn/.config/awesome/themes/powerarrow-darker/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "test.html"
+ "client.php"
+ "creer_compt.php"
+ "login.css"
+ "mesFonctions.php"
+ "getproduit.php"
+ "connexionbd.php"
+ "update_produit.php"
+ "lieuser.php"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/beorn/.emacs.d/" (22286 30896 320632 348000) "url/" "init.el~" "auto-save-list/" "ido.last" "./" "../" "init.el" "ido.last~" "elpa/")
+
+ ("/home/beorn/" (22286 30458 230633 134000) "shop3d/" "sinatra/" ".gnupg/" "AndroidStudioProjects/" "minmal.log" "test.html" "minmal.pdf" ".java/" "vagrant-lamp/" "test2.pdf" "LEXAR/" "Dropbox/" ".gitconfig" "test2.log" ".wget-hsts" ".android/" "texput.log" "minmal.aux" ".zprofile" "Desktop/" ".oh-my-zsh/" "test.tex" ".zsh-update" ".swt/" "pro/" "./" "texput.pdf" "Downloads/" "../" "test.pdf" ".saves/" ".AndroidStudio1.5/" "test2.tex" "test.lol" ".Xresources" ".bash_history" ".bashrc" ".tidyrc" ".dropbox/" "lucas/" "backup.tar" ".gem/" "test.toc" "minmal.tex" ".local/" ".xinitrc" ".gradle/" ".pki/" ".bash_profile" "test2.aux" ".Xauthority" "_minted-minmal/" ".mozilla/" ".bash_logout" "VirtualBox VMs/" ".vagrant.d/" "test.log" ".ssh/" ".zsh_history" "awesome-copycats/" "_region_.tex" ".zshrc" ".config/" "prv_test.log" ".esd_auth" ".emacs.d/" ".cache/" ".zcompdump-aragorn-5.2" "_minted-test/" "pasquier_usb/" "myvagrant/" ".xsel.log" "test.aux" ".thumbnails/" ".asoundrc")
+
+ ("/home/beorn/myvagrant/src/shop3d/" (22286 27984 937304 246000) "update_produit.php" "mesFonctions.php" "adduser.php" "js/" "delete_produit.php" "add_produit_panier.php" "connexionbd.php" "./" "shop3d.html" "../" "deconnexion.php" "creer_compt.php" "nav.php" "shop3d.js" "index.php" "img/" "add_produit.php" "admin.php" "client.php" "getproduit.php" "jquery_post.php" "login.css" "login.php" "lieuser.php" "style.css")
+
+ ("/home/beorn/Dropbox/projet_IHM/bily/shop3d/" (22286 22014 307645 701000) "update_produit.php" "mesFonctions.php" "adduser.php" "js/" "delete_produit.php" "add_produit_panier.php" "connexionbd.php" "./" "shop3d.html" "../" "creer_compt.php" "shop3d.js" "index.php" "img/" "add_produit.php" "admin.php" "getproduit.php" "jquery_post.php" "login.css" "login.php" "lieuser.php" "style.css")
+
+ ("/home/beorn/myvagrant/src/" (22286 22104 440978 873000) "shop3d/" "./" "../" "shop3d_v2.zip")
+
+ ("/home/beorn/Dropbox/" (22286 26551 340640 156000) "eclipse_workspace/" "bilali_tp1.c" "emacs_related/" ".dropbox.cache/" "RevisionGL/" "Apps/" "latextemplates/" "emacsbackup~" "LOGO_hepia_EPMT-EPHJ-SMT.jpg" "garbage/" "old_cours/" "virtu_theorie.pdf" "perso/" "xorg-xinit-1.3.4-3-x86_64.pkg.tar.xz" "./" "see-me.txt" "../" "emacsbackup" "admin.zip" "logoHesSo.jpg" "photography/" "PetitCompteEntreAmis/" ".dropbox" "ebooks/" "cours/" "cv/" "test/" "pycharm_workspace/" "Labyrinthe.zip" "sandbox/" "rc.lua" "admin/" "virtu_complet_eval4.pdf" "txt_howto/" "projet_IHM/")
+
+ ("/home/beorn/Dropbox/projet_IHM/bily/" (22286 15207 611074 856000) "shop3d/" "./" "../" "shop3dAncien/")
+
+ ("/home/beorn/Dropbox/projet_IHM/" (22286 13639 647744 339000) "shop3d/" "shop3d_vfinal/" "bily/" "./" "shop3d.html" "../" ".dropbox" "cube_textures/" "shop3d_martiTeam.zip" "Ermal/" "shop3d_v2.zip")
+
+ ("/home/beorn/myvagrant/src/shop/" (22286 15481 77741 30000) "update_produit.php" "mesFonctions.php" "adduser.php" "js/" "delete_produit.php" "add_produit_panier.php" "connexionbd.php" "./" "shop3d.html" "../" "creer_compt.php" "shop3d.js" "index.php" "img/" "add_produit.php" "admin.php" "client.php" "getproduit.php" "jquery_post.php" "login.css" "login.php" "lieuser.php" "style.css")
+
+ ("/home/beorn/myvagrant/" (22285 59758 337605 218000) "./" "../" "provision.sh" ".vagrant/" "Vagrantfile" "src/" "shop3d_v2.zip")
+
+ ("/home/beorn/myvagrant/src/shop/img/" (22285 61593 130935 255000) "img_3.jpg" "cross.png" "img_7.jpg" "./" "../" "img_1.jpg" "img_4.jpg" "img_6.jpg" "crosshair.png" "img_5.jpg" "test.png")
+
+ ("/home/beorn/vagrant-lamp/src/" (22285 21411 694637 609000) "./" "../" "index.php")
+
+ ("/home/beorn/vagrant-lamp/" (22282 60563 197982 92000) ".git/" "./" "../" "provision-sql/" "README.md" "provision.sh" ".gitignore" ".vagrant/" "Vagrantfile" "src/")
+
+ ("/home/" (22268 12911 357234 96000) "beorn/" "./" "../")
+
+ ("/home/beorn/Dropbox/cours/SYN/" (22284 50077 319991 403000) "hepia.png" "manuel.toc" "local.properties" "lint.xml" "nRF24L01_Product_Specification_v2_0.pdf" "ARETE_LE_BON.zip" "gradlew" "areteFolder/" "project.properties" ".project" "manuel.pdf" "rec7003e.pdf" "arete.zip" "./" "schema_d_ensemble.png" "proguard-project.txt" "hes.png" "../" "notesSYN.org" "manuel.tex" "AretePOP.iml" "logoHepia.jpg" "manuel.out" "schema_d_ensemble.png.aux" "schema_d_ensemble.pdf" "AndroidManifest.xml" "_minted-manuel/" "manuel.aux" ".classpath" "1_SYN_2015_2016.pdf" "04_RF.ppsm" "manuel.log" "INTELLIFRIDGE_.pptx" "arete_le_bon/" "gradlew.bat" "build.gradle")
+
+ ("/home/beorn/Downloads/" (22283 63024 884090 9000) "en_windows_10_multiple_editions_version_1511_updated_feb_2016_x64_dvd_8379634.iso" "Fifty Shades of Grey 2015 UNRATED 1080p BRRip x264 DTS-JYK/" "projetatomic/" "Labyrinthe/" "The Curious Case of Benjamin Button (2008)/" "The Curious Case of Benjamin Button (2008) [720p] [YTS.AG].torrent" "key_win10_en_3264.txt" "./" "../" "The Hateful Eight (2015) [1080p] [YTS.AG]/" "The Hateful Eight (2015) [1080p] [YTS.AG].torrent" "labyrinthe.zip")
+
+ ("/home/beorn/Dropbox/cours/CGC/labo4/" (22283 42554 762580 333000) "./" "../" "labo4_swift_libcloud_hepiacloud_bilali_pasquier.py" "script.py" "rendu_labo3_et_4_bilali_pasquier/" "restclient.py" "labo3_bilali_pasquier.py" "script.sh" "rendu_labo3_et_4_bilali_pasquier.zip")
+
+ ("/home/beorn/Dropbox/cours/CGC/labo3/" (22283 36365 422591 456000) "libCloud-Lab.pdf" "./" "../" "testkey.pem" "rootkey.csv" "LibCloud4Interoperability.py" "test.pem" "labo3_bilali_pasquier.py" "connection_hepiacloud.txt" "launch.sh")
+
+ ("/home/beorn/Dropbox/cours/CGC/" (22283 34198 805928 678000) "labo2/" "labo1/" "labo3/" "./" "../" "OpenStack-LabBachelor.pdf" "lol.pem" "notesCGC.org" "lol4.pem" "restserver.py" "pass.txt" "restclient.py" "test.pem" "lol3.pem" "lol2.pem" "labo4/" "lol.pub" "#pass.txt#")
+
+ ("/home/beorn/Dropbox/cours/MOB/" (22278 18685 730877 254000) "20160404_132717.jpg" "todolist.txt" "20160404_132604.jpg" "20160404_132621.jpg" "20160404_132710.jpg" "bilali_rapport_tp3.tex" "test.tex" "bilali_rapport_tp3.pdf" "20160404_132631.jpg" "./" "tp3.pdf" "../" "bilali_rapport_tp3.log" "test.pdf" "20160404_132658.jpg" "test.toc" "bilali_rapport_tp3.aux" "_minted-bilali_rapport_tp3/" "20160404_132732.jpg" "Labyrinthe.zip" "test.log" "bilali_rapport_tp3.toc" "20160404_132614.jpg" "background.jpg" "20160404_132642.jpg" "_minted-test/" "test.aux" "20160404_132652.jpg")
+
+ ("/home/beorn/.config/awesome/" (22282 57943 790476 807000) "rc.lua.dremora" "switch-theme.sh" "rc.lua.powerarrow-darker" "rc.lua.multicolor" ".git/" "eminent/" "rc.lua.blackburn" "./" "../" "README.rst" "rc.lua.holo" "rc.lua.copland" "lain/" "rc.lua.steamburn" "menugen/" "rc.lua" "themes/" "rc.lua.rainbow" "scratchdrop/" "#rc.lua#")
+
+ ("/home/beorn/myvagrant/shop/" (22277 7359 0 0) "update_produit.php" "mesFonctions.php" "adduser.php" "js/" "delete_produit.php" "add_produit_panier.php" "connexionbd.php" "./" "shop3d.html" "../" "creer_compt.php" "shop3d.js" "index.php" "img/" "add_produit.php" "admin.php" "getproduit.php" "jquery_post.php" "login.css" "login.php" "lieuser.php" "style.css")
+
+ ("/home/beorn/Dropbox/txt_howto/" (22279 39861 317608 388000) "cpp_cheat_sheet.cpp~" "eclipse_howto.txt" "doxygen_how_to.html" "install_archlinux.txt" "mplayer_how_to.txt" "worldcount_pdf.txt" "#emacs_latex.txt#" "dd_howto.txt" "export_to_bash.txt" "[Help] I cant install my printer. brother dcp-l2500d : archlinux_files/" "cmake.txt" "bepo_backup.txt" "test.txt" "[Help] I cant install my printer. brother dcp-l2500d : archlinux.htm" "Arch linux setup kvm with virt-manager GUI | Wood's blog.htm" "gdb.txt~" "valgrind.txt" "install_parabola.txt~" "raccourcis_symlink_ln.txt" "archlinux_android_install.txt" "xfce-reparer.txt.save.1" "Unformation - Getting LPCExpresso 7 to run on arch linux 64-bit.html" "An Introduction to File Compression Tools on Linux Servers | DigitalOcean.htm" "xfce-reparer.txt" "yasnippet.txt" "./" "emacscheatsheet.txt" "emacs_latex.txt" "cpp_cheat_sheet2.cpp~" "../" "reset_password_win7.txt" "silemmo _ test | GitLab_files/" "Unformation - Getting LPCExpresso 7 to run on arch linux 64-bit_files/" "tar_tuto.txt" "xrandr~" "makefile.5" "vlc-cheatsheet.ods" "myfile.txt" "doxygen_how_to_files/" "#valgrind.txt#" "#test.txt#" "virt-manager_how-to.txt" "[Épinglé] [Tuto] Virtualisation avec KVM QEMU Virt-Manager - Voir un sujet - Parrain-Linux.htm" "date_hour_terminal.txt" "xrandr" "Arch linux setup kvm with virt-manager GUI | Wood's blog_files/" "how_to_docker_lamp_cakephp.txt" "silemmo _ test | GitLab.htm" "lamp_glamp_laravel.txt" "makefile.5~" "bepo_perso.txt" "xinitrc.txt" "gdb.txt" "How to change the default location for virt-manager machines? - Ask Fedora: Community Knowledge Base and Support Forum_files/" "cmake.txt~" "Android_emu_reparation.txt" "emacscheatsheet.txt~" "QuickMemo+_2015-03-18-09-28-22.png" "mplayer_how_to.txt~" "#xfce-reparer.txt#" "youtube-dl_howto.txt" "How to change the default location for virt-manager machines? - Ask Fedora: Community Knowledge Base and Support Forum.htm" ".emacs" "A Basic MySQL Tutorial | DigitalOcean.htm" "joli_term.txt.save" "xfce-reparer.txt.save" "zip_tuto.txt" "kill_process.txt" "PDF_joindre_deux_pdf.txt" "javascript_cheatsheet.js~" "deploy_rsa_key.txt" "rc.lua" "deploy_rsa_key.txt~" "joli_term.txt" "A Basic MySQL Tutorial | DigitalOcean_files/" "batterie_sur_terminal.txt" "ssh_hepia.sh" "geany_change_terminal.txt" "cpp_cheat_sheet.cpp" "An Introduction to File Compression Tools on Linux Servers | DigitalOcean_files/" "rsync_howto" "xfce-reparer.txt.save.2" "javascript_cheatsheet.js" "copy_de_school.txt" "EmzXy.gif" "emacs_latex.txt~" "cpp_cheat_sheet2.cpp" "xfce-reparer.txt~" "lamp_vagrant_vbox_cakephp.txt" "install_parabola.txt" "[Épinglé] [Tuto] Virtualisation avec KVM QEMU Virt-Manager - Voir un sujet - Parrain-Linux_files/" "telecharger_home_hepia.sh")
+
+ ("/home/beorn/AndroidStudioProjects/Labyrinthe/app/src/main/java/com/example/bilali/labyrinthe/" (22278 18182 34211 492000) "LabyrintheView.java" "Bloc.java" "Scores.java" "./" "../" "Boule.java" "LabyrintheActivity.java" "LabyrintheEngine.java" "MainActivity.java")
+
+ ("/home/beorn/AndroidStudioProjects/Labyrinthe/app/src/main/java/com/example/bilali/" (22272 25001 0 0) "labyrinthe/" "./" "../")
+
+ ("/home/beorn/AndroidStudioProjects/Labyrinthe/app/src/main/java/com/example/" (22272 25001 0 0) "./" "../" "bilali/")
+
+ ("/home/beorn/AndroidStudioProjects/Labyrinthe/app/src/main/java/com/" (22272 25001 0 0) "example/" "./" "../")
+
+ ("/home/beorn/AndroidStudioProjects/Labyrinthe/app/src/main/java/" (22272 25001 0 0) "com/" "./" "../")
+
+ ("/home/beorn/AndroidStudioProjects/Labyrinthe/app/src/main/" (22278 18182 37544 826000) "ic_launcher-web.png" "java/" "assets/" "res/" "./" "../" "AndroidManifest.xml")
+
+ ("/home/beorn/AndroidStudioProjects/Labyrinthe/app/src/" (22272 25001 0 0) "./" "../" "androidTest/" "test/" "main/")
+
+ ("/home/beorn/AndroidStudioProjects/Labyrinthe/app/" (22277 54850 0 0) "proguard-rules.pro" "app.iml" "libs/" "./" "../" ".gitignore" "build/" "src/" "build.gradle")
+
+ ("/home/beorn/AndroidStudioProjects/Labyrinthe/" (22277 18505 0 0) "local.properties" "gradlew" "gradle.properties" "app/" "./" "../" ".gradle/" ".gitignore" "settings.gradle" "gradle/" "build/" "Labyrinthe.iml" ".idea/" "gradlew.bat" "build.gradle")
+
+ ("/home/beorn/AndroidStudioProjects/" (22278 19157 297543 74000) "MyFirstApp/" "Labyrinthe/" "./" "../" "Labyrinthe.zip" "Labyrinthe_Bilali.zip" "MyApplication/")
+
+ ("/home/beorn/Dropbox/cours/" (22273 19198 965503 499000) "VRT/" "SDI/" "COO/" "bilali_projet_rest.zip" "projet/" "bilali.tar.gz" "RES/" "groupe11.zip" "./" "../" "PROJET_SEM/" "WEB2/" "MOB/" "WEB/" "SYN/" "zz_old_cours/" "CGC/" "img" "projects/" "BUS/" "IHM/" "GLO/" "PAS/" "RES2/" "templates_tex/" "jquery-ui/" "GLO2/" "CHP/")
+
+ ("/home/beorn/.config/awesome/themes/powerarrow-darker/" (22270 62492 197629 618000) "wall.png" "./" "../" "icons/" "theme.lua")
+
+ ("/home/beorn/Downloads/projetatomic/" (22269 15268 70996 885000) "Fedora-Cloud-Atomic-23-20160308.x86_64.qcow2" "./" "../" "init.iso" "meta-data" "user-data" "atomic02/" "fedora.vdi")
+
+ ("/home/beorn/.config/awesome/themes/multicolor/" (22270 64562 774292 573000) "wall.png" "./" "../" "icons/" "theme.lua")
+
+ ("/home/beorn/.config/awesome/themes/multicolor/icons/" (22270 62492 194296 284000) "cpu.png" "mem.png" "note_on.png" "magnifier.png" "tilebottom.png" "spiral.png" "dish.png" "net_down.png" "fs.png" "net_up.png" "submenu.png" "floating.png" "tiletop.png" "./" "../" "clock.png" "fairv.png" "tile.png" "ac.png" "square_a.png" "dwindle.png" "temp.png" "fullscreen.png" "mail.png" "max.png" "square_b.png" "note.png" "tileleft.png" "bat.png" "fairh.png" "spkr.png")
+
+ ("/home/beorn/.config/awesome/themes/" (22270 62492 197629 618000) "steamburn/" "dremora/" "copland/" "multicolor/" "./" "../" "blackburn/" "rainbow/" "powerarrow-darker/" "holo/")
+
+ ("/home/beorn/Dropbox/emacs_related/" (22269 13777 867666 229000) "dired-ref.pdf" "init.el~" "vim-shortcuts.png" "awesome_my_keys.txt~" "functions.el" "awesome_my_keys.txt" "dired.txt~" "900px-KB_Swiss.svg.png" "DispoClavier/" "emacsbindingplusmelpadonotdelete.txt" "Emacs_main_gauche_bepo2.png" "./" "../" "Emacs_main_droit_bepo2.png" "dired.txt" "snippets/" "backup_init.el" ".emacs" ".emacs2" "init.el" "rc.lua" "emacs2.png" "myAvatar.png")
+
+ ("/home/beorn/.config/" (22269 13346 641000 338000) "gconf/" "dconf/" "./" "../" "VirtualBox/" "Trolltech.conf" "autostart/" "xfce4/" "awesome/" "gtk-3.0/")
+
+ ("/home/beorn/.config/awesome/themes/pro-dark/" (22268 21015 487657 240000) "./" "../" "wallpapers/" "icons/" "theme.lua")
+
+ ("/home/beorn/.config/awesome/themes/powerarrow-darker/icons/" (22268 14211 163830 453000) "cpu.png" "mem.png" "note_on.png" "arrl_dl.png" "magnifier.png" "tilebottom.png" "spiral.png" "battery_empty.png" "submenu.png" "square_sel.png" "floating.png" "tiletop.png" "./" "net.png" "../" "scissors.png" "fairv.png" "arrl_ld_sf.png" "tile.png" "task.png" "ac.png" "battery.png" "dwindle.png" "temp.png" "hdd.png" "mail.png" "battery_low.png" "max.png" "arrl_dl_sf.png" "arrl.png" "vol_low.png" "arrl_ld.png" "note.png" "arrl_sf.png" "vol_no.png" "tileleft.png" "mail_on.png" "square_unsel.png" "vol.png" "vol_mute.png" "net_wired.png" "fairh.png")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
