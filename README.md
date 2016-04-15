@@ -1,2 +1,3 @@
-# .emacs.d
-my emacs config folder
+# Mon Dossier De Configuration Emacs
+## Adapté pour la disposition clavier Bépo
+
