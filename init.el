@@ -7,6 +7,44 @@
 ;; Initialise the package system.
 (package-initialize)
 
+;(require 'simple-httpd)
+;(setq httpd-root "/var/www")
+;(httpd-start)
+
+;(add-hook 'js2-mode-hook 'skewer-mode)
+;(add-hook 'css-mode-hook 'skewer-css-mode)
+;;(add-hook 'html-mode-hook 'skewer-html-mode)
+
+;;(add-to-list 'company-backends 'company-web-html)
+;;(add-to-list 'company-backends 'company-web-jade)
+;;(add-to-list 'company-backends 'company-web-slim)
+
+
+;;(require 'autopair)
+;;(autopair-global-mode 1)
+;;(setq autopair-autowrap t)
+
+(require 'auto-complete-config)
+(ac-config-default)
+
+(require 'yasnippet)
+(yas-global-mode 1)
+
+(add-hook 'js2-mode-hook 'ac-js2-mode)
+
+
+;;(add-hook 'after-init-hook 'global-company-mode)
+
+(require 'multi-web-mode)
+(setq mweb-default-major-mode 'html-mode)
+(setq mweb-tags '((php-mode "<\\?php\\|<\\? \\|<\\?=" "\\?>")
+                  (js2-mode "<script +\\(type=\"text/javascript\"\\|language=\"javascript\"\\)[^>]*>" "</script>")
+                  (css-mode "<style +type=\"text/css\"[^>]*>" "</style>")))
+(setq mweb-filename-extensions '("php" "htm" "html" "ctp" "phtml" "php4" "php5"))
+(multi-web-global-mode 1)
+
+(require 'impatient-mode)
+
 (require 'ido)
 (ido-mode t)
 
@@ -37,26 +75,26 @@
 
 (setq ispell-dictionary "francais")
 
-(require 'web-mode)
-(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.php?\\'" . web-mode))
-
-(defun my-web-mode-hook ()
-  "Hooks for Web mode."
-  (setq web-mode-markup-indent-offset 2)
-  (setq web-mode-css-indent-offset 2)
-  (setq web-mode-code-indent-offset 2)
-  (setq web-mode-enable-current-element-highlight t)
-  (setq web-mode-enable-auto-pairing t)
-  )
-(add-hook 'web-mode-hook  'my-web-mode-hook)
+;;(require 'web-mode)
+;;(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+;;(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+;;(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
+;;(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+;;(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+;;(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+;;(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+;;(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+;;(add-to-list 'auto-mode-alist '("\\.php?\\'" . web-mode))
+;;
+;;(defun my-web-mode-hook ()
+;;  "Hooks for Web mode."
+;;  (setq web-mode-markup-indent-offset 2)
+;;  (setq web-mode-css-indent-offset 2)
+;;  (setq web-mode-code-indent-offset 2)
+;;  (setq web-mode-enable-current-element-highlight t)
+;;  (setq web-mode-enable-auto-pairing t)
+;;  )
+;;(add-hook 'web-mode-hook  'my-web-mode-hook)
 
 (require 'emmet-mode)
 (add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
@@ -64,9 +102,9 @@
 (add-hook 'web-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation
 
 
-(global-flycheck-mode)
-(eval-after-load 'flycheck
-  '(flycheck-add-mode 'html-tidy 'web-mode))
+;;(global-flycheck-mode)
+;;(eval-after-load 'flycheck
+;;  '(flycheck-add-mode 'html-tidy 'web-mode))
 ;;                  (setq emmet-use-css-transform nil)))))
 ;; key binding des mouvement
 ;;      r
@@ -135,10 +173,14 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(custom-enabled-themes (quote (base16-twilight-dark)))
+ '(custom-safe-themes
+   (quote
+    ("d1a42ed39a15a843cccadf107ee0242b5f78bfbb5b70ba3ce19f3ea9fda8f52d" default)))
+ '(inhibit-startup-screen t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "white" :foreground "black" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 140 :width normal :foundry "PfEd" :family "Inconsolata")))))
+ '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 139 :width normal :foundry "PfEd" :family "Inconsolata")))))
